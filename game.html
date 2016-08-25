@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="game.css" media="screen">
+</head>
+<body>
+	<div id="game">
+		<div id="phone">
+			<div class="top"></div>
+			<div id="phoneScreen">
+				<div id="texts" style="display: none;">
+					<div id="textList">
+						<script id="text-preview-template" type="text/x-handlebars-template">
+						<li data-name="{{displayName}}" data-event="{{event}}" data-numnew="{{numNew}}" class="{{isNew}}">
+							<img src="avatars/{{avatar}}" height="60" width="60" />
+							<div class="text-info">
+								<h4><a href="#">{{name}}</a></h4>
+								<small>{{message}}</small>
+							</div>
+						</li>
+						</script>
+					</div>
+					<div id="textsHistory"></div>
+				</div>
+				<script id="texts-template" type="text/x-handlebars-template">
+					<div id="texts{{displayName}}" class="texts" style="display: none;">
+						<div class="header">Texting with {{name}}</div>
+						<div class="texts-inner">
+							<ul>
+								{{#list messages}}
+									<li class="{{who}}">
+										<img src="avatars/{{avatar}}" height="30" width="30" />
+										<div class="text-info">
+											{{message}}
+										</div>
+									</li>
+								{{/list}}
+								{{#if isLast}}
+								<li class="me" id="last{{displayName}}" style="display: none;">
+									<img src="avatars/me.png" height="30" width="30" />
+									<div class="text-info">
+										{{lastMessage}}
+									</div>
+								</li>
+								{{/if}}
+							</ul>
+						</div>
+						<div class="footer">
+							<textarea readonly>{{lastMessage}}</textarea> {{#if isLast}}<input type="button" class="display-last" data-name="{{displayName}}" value="Go" />{{/if}}
+						</div>
+					</div>
+				</script>
+
+				<div id="social">
+					<div class="header">Gregar.io</div>
+					<div class="social-inner">
+						<script id="social-template" type="text/x-handlebars-template">
+							<li>
+								<img src="avatars/{{avatar}}" height="60" width="60" />
+								<div class="text-info">
+									<h4>{{name}} <span>Posted {{date}}</span></h4>
+									<div class="message">
+										{{message}}
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="info">
+									<span class="likes" title="{{whoLiked}}">{{likes}} likes</span>
+								</div>
+							</li>
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="menu">
+					<ul>
+						<li class="active"><a href="#" id="socialLink" data-event="newFeed">Social <span class="new-badge" style="display: none;">0</span></a></li>
+						<li><a href="#" id="smsLink">SMS <span class="new-badge">2</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="browser">
+			<div class="top"></div>
+			<div id="browserScreen">
+				<div class="feeds">
+					<div class="feeds-inner">
+						<h2>DiscoveRSS Feed Reader</h2>
+						<div id="feedList"></div>
+						<script id="feeds-template" type="text/x-handlebars-template">
+							<li><a href="#" class="{{displayName}}feed {{#if isNotFirst}}{{else}}active{{/if}}" data-name="{{displayName}}">{{name}} <span class="new-badge">{{new}}</span></a></li>
+						</script>
+					</div>
+				</div>
+				<div id="readPosts"></div>
+				<script id="posts-template" type="text/x-handlebars-template">
+				<div class="feed-reader" id="feed{{displayName}}"  {{#if isNotFirst}}style="display: none;"{{/if}}>
+					<div class="header">{{name}}</div>
+					<div class="feed-reader-inner">
+						<ul>
+							{{#list posts}}
+							<li class="post">
+								<h4>{{name}} <span>Posted {{date}}</span></h4>
+								{{{post}}}
+							</li>
+							{{/list}}
+						</ul>
+					</div>
+				</div>
+				</script>
+			</div>
+			<div class="bottom"></div>
+		</div>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+	<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
+	<script src="js/gamefunctions.js"></script>
+	<script src="js/game.js"></script>
+	<script src="js/story.js"></script>
+</body>
+</html>

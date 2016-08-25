@@ -1,0 +1,19 @@
+[
+	{
+		"name":"Asia", 
+		"message":"bananas",
+		"avatar":"avatar.jpg",
+		"event":"",
+		"isNew":"new",
+		"messages":[
+			{
+				"who": "me",
+				"message": "Hello!"
+			},
+			{
+				"who": "them",
+				"message": "Hi!!"
+			}
+		]
+	}
+]
