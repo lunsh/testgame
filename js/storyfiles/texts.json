@@ -1,0 +1,322 @@
+[
+	{
+		"name":"David Tran", 
+		"displayName":"david",
+		"message":"lol k brt",
+		"avatar":"david.png",
+		"event":"",
+		"isLast":false,
+		"isNew": "new",
+		"numNew": "1",
+		"messages":[
+			{
+				"who": "them",
+				"message": "i cannot believe how dull dr. cheese's class is",
+				"avatar": "david.png"
+			},
+			{
+				"who": "me",
+				"message": "lol right?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "whata re you doing this weekend",
+				"avatar": "david.png"
+			},
+			{
+				"who": "me",
+				"message": "kerry's party. want to come? it's at 6 at drnk house on sat",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "i have a paper to write",
+				"avatar": "david.png"
+			},
+			{
+				"who": "me",
+				"message": "all wekeend? I haven't seen you in forever!",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "haha ok, you've convinced me.",
+				"avatar": "david.png"
+			},
+			{
+				"who": "me",
+				"message": "brunch?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "sorry, just woke up. still up for brunch?",
+				"avatar": "david.png"
+			},
+			{
+				"who": "me",
+				"message": "yeah, hurry, we're at the dynamo donkey",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "who's \"we\"?",
+				"avatar": "david.png"
+			},
+			{
+				"who": "me",
+				"message": "lol me, jordan, kerry, eleanor. calm down and get over here",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "lol k brt",
+				"avatar": "david.png"
+			}
+		],
+		"lastMessage":""
+	},
+	{
+		"name":"Rosa Vargas", 
+		"displayName":"rosa",
+		"message":"what are you up to this week...",
+		"avatar":"rosa.png",
+		"event":"",
+		"isLast":true,
+		"isNew": "new",
+		"numNew": "1",
+		"messages":[
+			{
+				"who": "them",
+				"message": "hey what's up? here's my number",
+				"avatar": "rosa.png"
+			},
+			{
+				"who": "me",
+				"message": "hey! awesome. how's it going?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "good. soooo bored. I'm in class right now",
+				"avatar": "rosa.png"
+			},
+			{
+				"who": "me",
+				"message": "which one?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "new media with dr. harris. literally going to die",
+				"avatar": "rosa.png"
+			},
+			{
+				"who": "me",
+				"message": "lol",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "so what are you up to this weekend?",
+				"avatar": "rosa.png"
+			}
+		],
+		"lastMessage":"not sure yet, what are you doing?"
+	},
+	{
+		"name":"Dr. Cheese", 
+		"displayName":"charles",
+		"message":"Make sure to sign up for the...",
+		"avatar":"charles.png",
+		"event":"",
+		"isLast":false,
+		"isNew": "",
+		"numNew": "0",
+		"messages":[
+			{
+				"who": "me",
+				"message": "Hi, Dr. Weatherby, I was wondering if you wanted to meet for lunch tomorrow",
+				"avatar": "me.png"
+			},
+			{
+				"who": "me",
+				"message": "Also, thank you for all the advice yesterday on my course load",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "Of course, and absolutely for lunch. I am free at 12, just swing by my office",
+				"avatar": "charles.png"
+			},
+			{
+				"who": "me",
+				"message": "Perfect! see you then!",
+				"avatar": "me.png"
+			},
+			{
+				"who": "me",
+				"message": "What are some research topics I should research for the upcoming seminar?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "I would say focus on American history from 1800 to 1830. The library has a great selection on the First Seminole War",
+				"avatar": "charles.png"
+			},
+			{
+				"who": "me",
+				"message": "Thank you!",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "Make sure to sign up for the lecture on Calvin Coolidge. It's going to be great!",
+				"avatar": "charles.png"
+			}
+		],
+		"lastMessage":""
+	},
+	{
+		"name":"Jordan Ives", 
+		"displayName":"jordan",
+		"message":"i'll let you know",
+		"avatar":"jordan.png",
+		"event":"",
+		"isLast":false,
+		"isNew": "",
+		"numNew": "0",
+		"messages":[
+			{
+				"who": "them",
+				"message": "howdy",
+				"avatar": "jordan.png"
+			},
+			{
+				"who": "me",
+				"message": "what's up?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "not too much, just chillin with eleanor",
+				"avatar": "jordan.png"
+			},
+			{
+				"who": "me",
+				"message": "is she okay? what's going on with her lately?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "she's just going through a rough time right now, I can't talk much about it",
+				"avatar": "jordan.png"
+			},
+			{
+				"who": "me",
+				"message": "i get it. tell her if she needs anything to let me know, okay? is it her parnts?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "can't talk about it. how are classes?",
+				"avatar": "jordan.png"
+			},
+			{
+				"who": "me",
+				"message": "not too bad. summer semester is always really slow. not too worried yet.",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "haha, right? this college is so freaking easy",
+				"avatar": "jordan.png"
+			},
+			{
+				"who": "me",
+				"message": "yeah, I know what you're going to say - nothing compared ot harvard, right?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "hey, I should have gotten in",
+				"avatar": "jordan.png"
+			}
+		],
+		"lastMessage":""
+	},
+	{
+		"name":"Kerry Sloan", 
+		"displayName":"kerry",
+		"message":"Yep, got netflix going right...",
+		"avatar":"kerry.png",
+		"event":"",
+		"isLast":false,
+		"isNew": "",
+		"numNew": "0",
+		"messages":[
+			{
+				"who": "them",
+				"message": "I'm going to kill my parents. They're being completely unreasonable",
+				"avatar": "kerry.png"
+			},
+			{
+				"who": "me",
+				"message": "aw, what's wrong?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "Nothing. They're just dumb. I'm taking a ton of classes and they have no sympathy for me",
+				"avatar": "kerry.png"
+			},
+			{
+				"who": "me",
+				"message": "yeah that's stupid. are you okay?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "Of course. It's just really frustrating. I just have no idea what i'm doing and i feel stupid for caring",
+				"avatar": "kerry.png"
+			},
+			{
+				"who": "me",
+				"message": "it's totally fine to care, or you know, not care. want to come with us for brunch at the dynamo donkey?",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "Tomorrow?",
+				"avatar": "kerry.png"
+			},
+			{
+				"who": "me",
+				"message": "yep, eleven o'clock sharp",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "Yes, totally. I need a break from thinking about this",
+				"avatar": "kerry.png"
+			},
+			{
+				"who": "me",
+				"message": "awesome. just try to do something fun tonight",
+				"avatar": "me.png"
+			},
+			{
+				"who": "them",
+				"message": "Yep, got netflix going right now",
+				"avatar": "kerry.png"
+			},
+			{
+				"who": "me",
+				"message": "haha awesome",
+				"avatar": "me.png"
+			}
+		],
+		"lastMessage":""
+	}
+]
